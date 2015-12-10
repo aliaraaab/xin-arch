@@ -1,0 +1,168 @@
+.button.solid, 
+input[type=submit].button {
+	background: #5AAD54;
+}
+.button-area {
+	vertical-align: middle;
+    display: table-cell;
+}
+
+.navbar,
+.searching .search {
+	/*background: #ff9500;*/
+	background: #b2966e;
+}
+.navbar {
+	border: 0;
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    -ms-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    -o-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+.navbar h6.label,
+.navbar .drawer-button,
+.navbar .icon-menu { color: #fff; }
+.searching .search input[type=text] {
+	background: #fff;
+}
+.navbar h6.label {
+	text-transform: uppercase;
+}
+.navbar span.direct,
+.searching .search input[type=reset] {
+	color: #fff;
+}
+
+.searching .search input[type=text] {
+	padding: 4px 10px;
+}
+
+.resultArea {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.resultArea .mapResult {
+	height: 100%;
+}
+.resultArea .mapArea {
+	position: absolute;
+    bottom: 65px;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.resultArea .result {
+    position: absolute;
+    bottom: 0;
+    top: initial;
+    right: 0;
+    left: 0;
+    height: auto;
+	background: #f8f8f8;
+	border-top: 1px solid #ddd;
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    -ms-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    -o-box-shadow: 0 0 3px rgba(0,0,0,0.3);
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+.resultArea .result .container {
+	height: 100%;
+    display: table;
+}
+.resultArea .result .container .row {
+	display: inline-block;
+    vertical-align: middle;
+}
+.result h3 {
+	display: inline-block;
+	vertical-align: middle;
+    width: 30%;
+    margin: 0;
+}
+.result h3 span {
+    border: 1px solid #CF4741;
+    display: table;
+    padding: 3px 10px;
+    border-radius: 5px;
+    line-height: 130%;
+}
+.result p {
+    line-height: 150%;
+    color: #666;
+    width: 68%;
+    margin: 0;
+    font-size: 0.85em;
+    padding-left: 10px;
+    display: inline-block;
+	vertical-align: middle;
+}
+
+#map-canvas {
+    width: 100%;
+    height: 100%;
+}
+#map-footer {
+	position: absolute;
+    z-index: 2;
+    top: initial;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    pointer-events: none;
+    background: -moz-linear-gradient(top,rgba(255,255,255,0) 0,rgba(255,255,255,1) 80%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,rgba(255,255,255,0)),color-stop(80%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top,rgba(255,255,255,0) 0,rgba(255,255,255,1) 80%);
+    background: -o-linear-gradient(top,rgba(255,255,255,0) 0,rgba(255,255,255,1) 80%);
+    background: -ms-linear-gradient(top,rgba(255,255,255,0) 0,rgba(255,255,255,1) 80%);
+    background: linear-gradient(to bottom,rgba(255,255,255,0) 0,rgba(255,255,255,1) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
+}
+.map-info h3 {
+	font-size: 1.6em;
+}
+.map-info p {
+	line-height: 150%;
+    font-size: 1em;
+}
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+    display:none;
+}
+
+
+
+.button-get {
+	text-align: center;
+    display: table;
+    width: auto;
+    margin: 20px auto;
+}
+.button-get .get-area {
+	width: 80px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+    display: table-cell;
+    background: #5AAD54;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    border-radius: 100%;
+}
+.button-get .get {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 120%;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
